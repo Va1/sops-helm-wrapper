@@ -41,6 +41,6 @@ The wrapper uses [sops](https://github.com/mozilla/sops/) `decrypt.go` to decryp
 ### Note 
 Encrypted values must match the following RegEx: 
 ```
-"^((?:.*/)?secrets(?:(?:-|\\.|_).+)?.yaml)$"
+^((.*)\.secrets\.y(a)?ml)$
 ```
 
